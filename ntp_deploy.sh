@@ -8,3 +8,4 @@ sudo cp /etc/ntp.conf /etc/ntp.conf.bak
 sudo service ntp restart
 echo "*/1 * * * * $dir/ntp_verify.sh MAILTO=root@localhost" | crontab -
 
+exit 0

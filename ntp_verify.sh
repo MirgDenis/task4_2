@@ -13,4 +13,4 @@ then
 	sudo service ntp restart
 fi
 
-
+exit 0
